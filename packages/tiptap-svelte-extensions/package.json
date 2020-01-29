@@ -1,6 +1,6 @@
 {
   "name": "tiptap-svelte-extensions",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Extensions for tiptap-svelte",
   "homepage": "",
   "license": "MIT",
@@ -31,7 +31,7 @@
     "prosemirror-utils": "^0.9.6",
     "prosemirror-view": "^1.13.7",
     "tiptap-commands": "^1.12.5",
-    "tiptap-svelte": "^0.0.4"
+    "tiptap-svelte": "^0.0.5"
   },
   "peerDependencies": {
     "svelte": "^3.16.4"
