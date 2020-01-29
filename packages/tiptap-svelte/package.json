@@ -1,6 +1,6 @@
 {
   "name": "tiptap-svelte",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "A rich-text editor for Svelte",
   "homepage": "https://tiptap.scrumpy.io",
   "license": "MIT",
