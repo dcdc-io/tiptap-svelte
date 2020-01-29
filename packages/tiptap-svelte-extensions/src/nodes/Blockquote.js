@@ -1,4 +1,4 @@
-import { Node } from 'tiptap-svelte/src/index.js'
+import { Node } from 'tiptap-svelte'
 import { wrappingInputRule, toggleWrap } from 'tiptap-commands'
 
 export default class Blockquote extends Node {

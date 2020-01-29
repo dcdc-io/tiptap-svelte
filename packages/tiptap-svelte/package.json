@@ -4,10 +4,10 @@
   "description": "A rich-text editor for Svelte",
   "homepage": "https://tiptap.scrumpy.io",
   "license": "MIT",
-  "main": "dist/tiptap.common.js",
-  "module": "dist/tiptap.esm.js",
-  "unpkg": "dist/tiptap.js",
-  "jsdelivr": "dist/tiptap.js",
+  "main": "dist/tiptap-svelte.common.js",
+  "module": "dist/tiptap-svelte.esm.js",
+  "unpkg": "dist/tiptap-svelte.js",
+  "jsdelivr": "dist/tiptap-svelte.js",
   "files": [
     "src",
     "dist"

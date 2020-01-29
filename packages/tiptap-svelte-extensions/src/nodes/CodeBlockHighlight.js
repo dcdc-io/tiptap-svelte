@@ -1,4 +1,4 @@
-import { Node } from 'tiptap-svelte/src/index.js'
+import { Node } from 'tiptap-svelte'
 import low from 'lowlight/lib/core'
 import { toggleBlockType, setBlockType, textblockTypeInputRule } from 'tiptap-commands'
 import HighlightPlugin from '../plugins/Highlight'

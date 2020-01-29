@@ -1,4 +1,4 @@
-import { Node } from 'tiptap-svelte/src/index.js'
+import { Node } from 'tiptap-svelte'
 import { nodeInputRule } from 'tiptap-commands'
 
 export default class HorizontalRule extends Node {

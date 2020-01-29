@@ -30,7 +30,8 @@
     "prosemirror-transform": "^1.2.3",
     "prosemirror-utils": "^0.9.6",
     "prosemirror-view": "^1.13.7",
-    "tiptap-commands": "^1.12.5"
+    "tiptap-commands": "^1.12.5",
+    "tiptap-svelte": "file:../tiptap-svelte"
   },
   "peerDependencies": {
     "svelte": "^3.16.4"

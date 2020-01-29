@@ -1,4 +1,4 @@
-import { Node, Plugin } from 'tiptap-svelte/src/index.js'
+import { Node, Plugin } from 'tiptap-svelte'
 import { nodeInputRule } from 'tiptap-commands'
 
 /**

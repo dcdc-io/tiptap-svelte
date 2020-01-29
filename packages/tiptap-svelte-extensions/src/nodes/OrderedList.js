@@ -1,4 +1,4 @@
-import { Node } from 'tiptap-svelte/src/index.js'
+import { Node } from 'tiptap-svelte'
 import { wrappingInputRule, toggleList } from 'tiptap-commands'
 
 export default class OrderedList extends Node {

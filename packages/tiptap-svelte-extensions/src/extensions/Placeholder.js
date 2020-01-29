@@ -1,4 +1,4 @@
-import { Extension, Plugin } from 'tiptap-svelte/src/index.js'
+import { Extension, Plugin } from 'tiptap-svelte'
 import { Decoration, DecorationSet } from 'prosemirror-view'
 
 export default class Placeholder extends Extension {

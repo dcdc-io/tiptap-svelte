@@ -1,4 +1,4 @@
-import { Extension } from 'tiptap-svelte/src/index.js'
+import { Extension } from 'tiptap-svelte'
 import { history, undo, redo, undoDepth, redoDepth } from 'prosemirror-history'
 
 export default class History extends Extension {

@@ -1,4 +1,4 @@
-import { Extension } from 'tiptap-svelte/src/index.js'
+import { Extension } from 'tiptap-svelte'
 import { Step } from 'prosemirror-transform'
 import {
   collab,
