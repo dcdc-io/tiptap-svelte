@@ -14,10 +14,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andrewjk/tiptap-svelte.git"
+    "url": "git+https://github.com/justinmoon/tiptap-svelte.git"
   },
   "bugs": {
-    "url": "https://github.com/andrewjk/tiptap-svelte/issues"
+    "url": "https://github.com/justinmoon/tiptap-svelte/issues"
   },
   "dependencies": {
     "prosemirror-commands": "^1.1.2",
