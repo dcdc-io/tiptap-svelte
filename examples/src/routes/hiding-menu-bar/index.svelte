@@ -1,9 +1,9 @@
 <script>
   import { onMount, onDestroy } from "svelte";
   import Icon from "../../components/Icon";
-  import Editor from "tiptap-svelte/src/Editor.js";
-  import EditorContent from "tiptap-svelte/src/Components/EditorContent";
-  import EditorMenuBar from "tiptap-svelte/src/Components/EditorMenuBar";
+  import Editor from "tiptap-svelte";
+  import EditorContent from "tiptap-svelte";
+  import EditorMenuBar from "tiptap-svelte";
   import {
     Blockquote,
     BulletList,
@@ -21,7 +21,7 @@
     Strike,
     Underline,
     History
-  } from "tiptap-svelte-extensions/src/index.js";
+  } from "tiptap-svelte-extensions";
 
   let editor;
   let isActive;

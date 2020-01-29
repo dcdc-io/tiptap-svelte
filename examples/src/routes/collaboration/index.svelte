@@ -2,8 +2,8 @@
   import { onMount, onDestroy } from "svelte";
   import io from "socket.io-client";
   import Icon from "../../components/Icon";
-  import Editor from "tiptap-svelte/src/Editor.js";
-  import EditorContent from "tiptap-svelte/src/Components/EditorContent";
+  import Editor from "tiptap-svelte";
+  import EditorContent from "tiptap-svelte";
   import {
     HardBreak,
     Heading,
@@ -12,7 +12,7 @@
     Italic,
     History,
     Collaboration
-  } from "tiptap-svelte-extensions/src/index.js";
+  } from "tiptap-svelte-extensions";
 
   let loading = true;
   let editor = null;
