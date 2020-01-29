@@ -31,9 +31,10 @@
     "prosemirror-utils": "^0.9.6",
     "prosemirror-view": "^1.13.7",
     "tiptap-commands": "^1.12.5",
-    "tiptap-svelte": "file:../tiptap-svelte"
+    "tiptap-svelte": "^0.0.2"
   },
   "peerDependencies": {
     "svelte": "^3.16.4"
-  }
+  },
+  "gitHead": "569a7e4d9ea3b72fc139b7e606b2d890f0b7d70b"
 }
