@@ -1,4 +1,4 @@
-import { Doc } from "../../../../tiptap-svelte/src/index.js";
+import { Doc } from "tiptap-svelte/src/index.js";
 
 export default class CustomDoc extends Doc {
 

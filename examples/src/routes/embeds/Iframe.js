@@ -1,4 +1,4 @@
-import { Node } from "../../../../tiptap-svelte/src";
+import { Node } from "tiptap-svelte/src";
 import View from './Iframe.svelte'
 
 export default class Iframe extends Node {

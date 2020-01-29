@@ -1,8 +1,8 @@
 <script>
   import { onMount, onDestroy } from "svelte";
   import Icon from "../../components/Icon";
-  import Editor from "../../../../tiptap-svelte/src/Editor.js";
-  import EditorContent from "../../../../tiptap-svelte/src/Components/EditorContent";
+  import Editor from "tiptap-svelte/src/Editor.js";
+  import EditorContent from "tiptap-svelte/src/Components/EditorContent";
   import {
     Blockquote,
     CodeBlock,
@@ -18,7 +18,7 @@
     Italic,
     Link,
     History
-  } from "../../../../tiptap-svelte-extensions/src/index.js";
+  } from "tiptap-svelte-extensions/src/index.js";
 
   let editor;
 

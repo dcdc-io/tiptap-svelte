@@ -31,6 +31,8 @@
     "svelte-preprocess": "^3.2.6",
     "tippy.js": "5.1.2",
     "tiptap-commands": "^1.12.5",
+    "tiptap-svelte": "file:../packages/tiptap-svelte",
+    "tiptap-svelte-extensions": "file:../packages/tiptap-svelte-extensions",
     "tiptap-utils": "^1.8.3",
     "webpack": "^4.41.3",
     "webpack-svgstore-plugin": "^4.1.0"
