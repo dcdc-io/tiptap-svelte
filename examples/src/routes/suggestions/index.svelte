@@ -3,9 +3,7 @@
   import Fuse from "fuse.js";
   import tippy from "tippy.js";
   import Icon from "../../components/Icon";
-  import Editor from "tiptap-svelte";
-  import EditorContent from "tiptap-svelte";
-  import EditorMenuBar from "tiptap-svelte";
+  import { Editor, EditorContent, EditorMenuBar } from "tiptap-svelte";
   import {
     HardBreak,
     Heading,

@@ -1,7 +1,6 @@
 <script>
   import { onMount, onDestroy } from "svelte";
-  import Editor from "tiptap-svelte";
-  import EditorContent from "tiptap-svelte";
+  import { Editor, EditorContent } from "tiptap-svelte";
   import {
     HardBreak,
     Heading,

@@ -1,10 +1,8 @@
 <script>
   import { onMount, onDestroy } from "svelte";
   import Icon from "../../components/Icon";
-  import Editor from "tiptap-svelte";
-  import EditorContent from "tiptap-svelte";
-  import Heading from "tiptap-svelte-extensions";
-  import Code from "tiptap-svelte-extensions";
+  import { Editor, EditorContent, EditorMenuBar } from "tiptap-svelte";
+  import { Heading, Code } from "tiptap-svelte-extensions";
   import DragItem from "./DragItem";
 
   let editor;

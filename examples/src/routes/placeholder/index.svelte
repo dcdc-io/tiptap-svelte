@@ -1,13 +1,8 @@
 <script>
   import { onMount, onDestroy } from "svelte";
   import Icon from "../../components/Icon";
-  import Editor from "tiptap-svelte";
-  import EditorContent from "tiptap-svelte";
-  import {
-    BulletList,
-    ListItem,
-    Placeholder
-  } from "tiptap-svelte-extensions";
+  import { Editor, EditorContent } from "tiptap-svelte";
+  import { BulletList, ListItem, Placeholder } from "tiptap-svelte-extensions";
 
   let editor;
 
@@ -17,11 +12,11 @@
         new BulletList(),
         new ListItem(),
         new Placeholder({
-          emptyEditorClass: 'is-editor-empty',
+          emptyEditorClass: "is-editor-empty",
           emptyNodeClass: "is-empty",
           emptyNodeText: "Write something…",
           showOnlyWhenEditable: true,
-          showOnlyCurrent: true, 
+          showOnlyCurrent: true
         })
       ]
     });

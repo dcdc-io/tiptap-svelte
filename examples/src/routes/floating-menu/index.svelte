@@ -1,9 +1,7 @@
 <script>
   import { onMount, onDestroy } from "svelte";
   import Icon from "../../components/Icon";
-  import Editor from "tiptap-svelte";
-  import EditorContent from "tiptap-svelte";
-  import EditorFloatingMenu from "tiptap-svelte";
+  import { Editor, EditorContent, EditorFloatingMenu } from "tiptap-svelte";
   import {
     Blockquote,
     BulletList,
