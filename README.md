@@ -4,14 +4,6 @@ This editor is ported from [tiptap](https://tiptap.scrumpy.io), which is based o
 
 It is *fully extendable* and renderless. You can easily add custom nodes as __Svelte components__.
 
-## Getting started
-
-TODO: Package for NPM
-
-```bash
-yarn add -D tiptap-svelte etc
-```
-
 ## Running the examples
 
 ```bash
