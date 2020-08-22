@@ -210,10 +210,10 @@
   }
 </script>
 
-<style lang="scss">
+<style lang="scss" global>
   @import "../../assets/sass/variables";
 
-  :global(.mention) {
+  .mention {
     background: rgba($color-black, 0.1);
     color: rgba($color-black, 0.6);
     font-size: 0.8rem;
@@ -223,7 +223,7 @@
     white-space: nowrap;
   }
 
-  :global(.mention-suggestion) {
+  .mention-suggestion {
     color: rgba($color-black, 0.6);
   }
 
@@ -238,7 +238,7 @@
       display: block;
     }
 
-    :global(&__no-results) {
+    &__no-results {
       padding: 0.2rem 0.5rem;
     }
 
@@ -263,7 +263,7 @@
     }
   }
 
-  :global(.tippy-tooltip.dark-theme) {
+  .tippy-tooltip.dark-theme {
     background-color: $color-black;
     padding: 0;
     font-size: 1rem;
@@ -272,11 +272,11 @@
     border-radius: 5px;
   }
 
-  :global(.tippy-backdrop) {
+  .tippy-backdrop {
     display: none;
   }
 
-  :global(.tippy-roundarrow) {
+  .tippy-roundarrow {
     fill: $color-black;
   }
 

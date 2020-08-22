@@ -66,19 +66,19 @@
   });
 </script>
 
-<style lang="scss">
+<style lang="scss" global>
   @import "../../assets/sass/variables";
 
-  :global(ul[data-type="todo_list"]) {
+  ul[data-type="todo_list"] {
     padding-left: 0;
   }
 
-  :global(li[data-type="todo_item"]) {
+  li[data-type="todo_item"] {
     display: flex;
     flex-direction: row;
   }
 
-  :global(.todo-checkbox) {
+  .todo-checkbox {
     border: 2px solid $color-black;
     height: 0.9em;
     width: 0.9em;
@@ -93,7 +93,7 @@
     transition: 0.4s background;
   }
 
-  :global(.todo-content) {
+  .todo-content {
     flex: 1;
     > p:last-of-type {
       margin-bottom: 0;
@@ -103,7 +103,7 @@
     }
   }
 
-  :global(li[data-done="true"]) {
+  li[data-done="true"] {
     > .todo-content {
       > p {
         text-decoration: line-through;
@@ -114,7 +114,7 @@
     }
   }
 
-  :global(li[data-done="false"]) {
+  li[data-done="false"] {
     text-decoration: none;
   }
 </style>

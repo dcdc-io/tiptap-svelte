@@ -49,7 +49,7 @@
   }
 </script>
 
-<style lang="scss">
+<style lang="scss" global>
   .checkbox {
     margin-bottom: 1rem;
   }
